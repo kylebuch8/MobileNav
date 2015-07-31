@@ -1,0 +1,15 @@
+toolbar {
+    height: 80px;
+}
+
+toolbar[content] {
+    padding-top: 28px;
+}
+
+.container .main {
+    top: 80px;
+}
+
+.scrim {
+    top: 80px;
+}

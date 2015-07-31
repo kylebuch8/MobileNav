@@ -1,0 +1,19 @@
+{
+  "name": "MobileNav",
+  "version": "0.0.0",
+  "authors": [
+    "Kyle Buchanan <kylebuch8@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fastclick": "~1.0.6",
+    "angular": "~1.4.3"
+  }
+}
