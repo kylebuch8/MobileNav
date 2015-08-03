@@ -4,7 +4,7 @@ dist
 cordova/hooks
 cordova/platforms
 cordova/www
-cordova/plugins/
+cordova/plugins/*
 !cordova/plugins/android.json
 !cordova/plugins/fetch.json
 !cordova/plugins/ios.json
