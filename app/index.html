@@ -65,10 +65,12 @@
                     document.body.classList.toggle('open');
                     document.body.classList.add('animating');
 
-                    if (document.body.classList.contains('open')) {
-                        StatusBar.hide();
-                    } else {
-                        StatusBar.show();
+                    if (window.StatusBar) {
+                        if (document.body.classList.contains('open')) {
+                            StatusBar.hide();
+                        } else {
+                            StatusBar.show();
+                        }
                     }
                 });
             });
